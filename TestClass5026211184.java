@@ -3,12 +3,12 @@ public class TestClass5026211184 {
 	ComputeMethods5026211184 input = new ComputeMethods5026211184();
 
 	double celcius = input.fToC(100);
-			Systen.out.printIn("Temp in celcius is "+celcius);
+			System.out.println("Temp in celcius is "+celcius);
 
 	double hypot = input.hypotenuse(6,8);
-			System.out.printIn("The hypotenuse is "+hypot);
+			System.out.println("The hypotenuse is "+hypot);
 
 	int dice = input.roll();
-			System.out.printIn("The sum of the dice values is "+dice);
+			System.out.println("The sum of the dice values is "+dice);
 	}
 }
